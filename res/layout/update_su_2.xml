@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/green">
+    
+	<Button 
+      android:id="@+id/ud_auth_button" 
+	  android:text="与Dropbox连接" 
+	  android:textSize="25dp"
+	  android:layout_centerHorizontal="true"
+	  android:layout_centerVertical="true"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:background="@drawable/dark_green_250_50"/>
+	
+    <RelativeLayout
+        android:id="@+id/logged_in_display"
+        android:layout_below="@id/ud_auth_button" 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+		<RelativeLayout
+		    android:orientation="horizontal"  
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content">
+		    
+		    <Button 
+		      android:id="@+id/ud_text_button" 
+		      android:text="上传数据" 
+		      android:textSize="25dp"
+		      android:layout_width="fill_parent"
+		      android:layout_height="wrap_content"
+	          android:layout_weight="1"
+	          android:background="@drawable/dark_light_green_250_50"/>
+		    
+		    <Button 
+		      android:id="@+id/ud_return_button" 
+		      android:text="返回" 
+		      android:textSize="25dp"
+		      android:layout_below="@id/ud_text_button"
+		      android:layout_width="fill_parent"
+		      android:layout_height="wrap_content"
+	          android:layout_weight="1"
+	          android:background="@drawable/dark_light_light_green_250_50"/>
+		    
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>
+	      

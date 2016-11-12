@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" 
+        android:background="@drawable/light_blue">
+
+        <TextView
+            android:id="@+id/pc_text"      
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="今天你饮食控制了糖类的摄入了吗？"
+            android:padding="40dp"
+            android:textSize="40dp" 
+            />
+
+    </RelativeLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2" >
+        <Button
+            android:id="@+id/pc_yes"
+            android:background="@drawable/orange"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30dp" 
+            android:layout_weight="1"
+            android:text="Yes"/>
+        <Button
+            android:id="@+id/pc_no"
+            android:background="@drawable/light_gray"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="30dp" 
+            android:layout_weight="1"
+            android:text="No"/>
+    </LinearLayout>
+    
+</LinearLayout>

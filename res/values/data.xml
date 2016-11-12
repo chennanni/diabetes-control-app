@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data_type">
+        <item>血糖</item>
+        <item>尿糖</item>
+        <item>体温</item>
+        <item>体重</item>
+        <item>糖化蛋白</item>
+        <item>尿蛋白</item>
+        <item>尿酮体</item>
+    </string-array>
+</resources>

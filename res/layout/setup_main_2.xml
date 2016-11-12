@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/su_reminder"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textSize="35dp" 
+            android:text="我的提醒" 
+            android:background="@drawable/light_blue"/>
+        <Button
+            android:id="@+id/su_update"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textSize="35dp" 
+            android:text="数据上传" 
+            android:background="@drawable/green"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1">
+        <Button
+            android:id="@+id/su_me"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textSize="35dp" 
+            android:text="设置密码" 
+            android:background="@drawable/orange"/>
+        <Button
+            android:id="@+id/su_email"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textSize="35dp" 
+            android:text="用户反馈" 
+            android:background="@drawable/light_yellow"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_weight="1">
+        <Button
+			android:id="@+id/su_clear"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textSize="35dp" 
+            android:text="清除数据" 
+            android:background="@drawable/soil_gray"/>
+        <Button
+            android:id="@+id/su_return"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textSize="35dp" 
+            android:text="返回" 
+            android:background="@drawable/light_purple"/>
+    </LinearLayout>
+
+</LinearLayout>
